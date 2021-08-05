@@ -14,7 +14,13 @@ public class Rotation : MonoBehaviour
     private float Angle;
 
     private Ray _cameraRay;
- 
+    
+    public void Look()
+    {
+
+        //test
+    }  
+
     public Vector3 GetPointToLook()
     {
         _cameraRay = _camera.ScreenPointToRay(Input.mousePosition);
